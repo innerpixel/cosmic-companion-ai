@@ -33,7 +33,7 @@
           <div v-for="(message, index) in messages" 
                :key="index" 
                :class="[
-                 'p-3 rounded-lg max-w-[85%]',
+                 'p-3 rounded-lg max-w-[100%]',
                  message.type === 'ai' ? 'bg-blue-500/20 mr-auto' : '',
                  message.type === 'user' ? 'bg-indigo-500/20 ml-auto' : '',
                  message.type === 'system' ? 'bg-red-500/20 mx-auto text-center' : ''
