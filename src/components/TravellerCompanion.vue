@@ -398,7 +398,7 @@ const scrollToBottom = async () => {
 watch(messages, () => scrollToBottom(), { deep: true })
 </script>
 
-<style>
+<style scoped>
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
   70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
